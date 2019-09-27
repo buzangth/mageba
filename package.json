@@ -1,0 +1,25 @@
+{
+  "name": "mageba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzangth/mageba.git"
+  },
+  "keywords": [
+    "kamageba"
+  ],
+  "author": "thabo and Kholofelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzangth/mageba/issues"
+  },
+  "homepage": "https://github.com/buzangth/mageba#readme",
+  "dependencies": {
+    "passport": "^0.4.0"
+  }
+}
