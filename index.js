@@ -1,10 +1,15 @@
 const express = require('express');
 const passport = require('passport');
-const sequelize = require('sequelize');
-const database = require('./config/database');
+const mongoose = require('mongoose');
+const keys = require('./config/keys')
 
+require('./models/User');
+require('./models/Order');
+require('./models/Product');
+//const Sequelize = require('sequelize');
+
+mongoose.connect(keys.mongoURL);
 const app = express();
 
-sequelize.database;
 const PORT = 5000;
 app.listen(PORT);

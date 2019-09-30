@@ -23,9 +23,8 @@
   "homepage": "https://github.com/buzangth/mageba#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.7.1",
     "nodemon": "^1.19.2",
-    "passport": "^0.4.0",
-    "sequelize": "^5.19.1",
-    "tedious": "^6.4.0"
+    "passport": "^0.4.0"
   }
 }
