@@ -5,7 +5,7 @@ const keys = require('./config/keys')
 
 require('./models/User');
 require('./models/Order');
-require('./models/Product');
+require('./models/Item');
 //const Sequelize = require('sequelize');
 
 mongoose.connect(keys.mongoURL);
